@@ -55,13 +55,13 @@ export const Search = styled.div`
   grid-area: search;
 
   padding: 64px 64px 0px;
-
 `;
 
 
 export const Content = styled.div`
   grid-area: content;
-
+  padding: 0px 64px;
+  overflow-y: auto;
 `;
 
 
